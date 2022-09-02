@@ -11,7 +11,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="ID"
-        android:textSize="23sp"
+        android:textSize="18sp"
+        android:textStyle="bold"
         />
 
     <EditText
@@ -24,7 +25,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="PW"
-        android:textSize="23sp"
+        android:textSize="18sp"
+        android:textStyle="bold"
         />
 
     <EditText
