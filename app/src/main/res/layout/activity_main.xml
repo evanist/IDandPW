@@ -48,7 +48,30 @@
         android:layout_height="wrap_content"
         android:hint="한 줄로 입력"
         android:imeOptions="actionGo"
-        android:singleLine="true"/>
+        android:singleLine="false"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="남성"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="여성"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="공개안함"/>
+
+    </RadioGroup>
+
 
     <CheckBox
         android:layout_width="wrap_content"
