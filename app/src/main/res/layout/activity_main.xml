@@ -7,10 +7,19 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <androidx.constraintlayout.utils.widget.ImageFilterView
-        android:layout_width="120dp"
-        android:layout_height="120dp"
-        android:src="@drawable/logo" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <androidx.constraintlayout.utils.widget.ImageFilterView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/logo"
+            android:scaleType="centerCrop"/>
+
+    </LinearLayout>
 
     <TextView
         android:layout_width="wrap_content"
