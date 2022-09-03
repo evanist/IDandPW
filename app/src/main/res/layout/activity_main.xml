@@ -7,6 +7,11 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/logo" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -48,7 +53,7 @@
         android:layout_height="wrap_content"
         android:hint="한 줄로 입력"
         android:imeOptions="actionGo"
-        android:singleLine="false"/>
+        android:singleLine="true"/>
 
     <RadioGroup
         android:layout_width="wrap_content"
@@ -77,7 +82,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="이용약관 동의"
-        android:checked="true"/>
+        android:checked="false"/>
 
     <Button
         android:layout_width="match_parent"
